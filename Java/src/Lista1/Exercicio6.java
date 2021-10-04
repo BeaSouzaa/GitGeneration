@@ -1,7 +1,6 @@
 package Lista1;
 
 import java.util.Scanner;
-import java.lang.Math;
 
 
 
@@ -31,12 +30,11 @@ public class Exercicio6 {
 	 System.out.println("Escreva o valor de Y2: ");
 	 y2 = leia.nextDouble();
 	 
-	 d = Math.sqrt(((x2-x1)^2) + ((y2-y1)^2));
+	 d = (((x2-x1)* (x2-x1)) + ((y2-y1)*(y2-y1)));
 	 	
 	 
 	 System.out.println("A distância entre os pontos é de : " + d);
-	 
-	 
+	  
 
 	}
 

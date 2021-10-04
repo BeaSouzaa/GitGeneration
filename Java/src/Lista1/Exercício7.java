@@ -1,8 +1,6 @@
 package Lista1;
 
 import java.util.Scanner;
-import java.lang.Math;
-
 
 public class Exercício7 {
 //Um sistema de equações lineares do tipo: ax + by = c, dx + ey = f, pode ser resolvido segundo: 
@@ -38,9 +36,9 @@ public class Exercício7 {
 	f = leia.nextDouble();
 	
 	
-	x = ((c*e-b*f)/(a*e-b*d));
+	x = (((c*e)-(b*f))/((a*e)-(b*d)));
 	
-    y = ((a*f-c*d)/(a*e-b*d));
+    y = (((a*f)-(c*d))/((a*e)-(b*d)));
 	 
 	System.out.println("\nO valor de X é : " + x);
 	
