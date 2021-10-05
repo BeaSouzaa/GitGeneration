@@ -3,13 +3,10 @@ package Lista2;
 import java.util.Scanner;
 
 public class Exercício3 {
-////Elabore um sistema que dada a idade de um nadador classifique-o em uma das seguintes
-	//categorias:
-	//Infantil A = 5 a 7 anos
-	//Infantil B = 8 a 11 anos
-	//Juvenil A = 12 a 13 anos
-	//Juvenil B = 14 a 17 anos
-	//Adultos = Maiores de 18 an
+////Elabore um sistema que que recba a idade e informe 
+// 10 - 14 infantil;
+// 15 - 17 juvenil;
+// 18 - 25 adulto
 
 	public static void main(String[] args) {
 		
@@ -21,24 +18,16 @@ public class Exercício3 {
 		System.out.println("\nPor favor, informe a sua idade: ");
 		idade = leia.nextInt();
 		
-		if (idade >= 5 && idade <= 7) {
-			System.out.println("\nInfantil A");
+		if (idade >= 10  && idade <= 14) {
+			System.out.println("\nInfantil ");
 		}
 		
 		else if (idade >= 8 && idade <= 11) {
-			System.out.println("\nInfantil B");
+			System.out.println("\nJuvenil ");
 		}
 		
-		else if (idade >= 12 && idade <= 13) {
-			System.out.println("\nJuvenil A");
-		}
-		
-		else if(idade >= 14 && idade <= 17) {
-			System.out.println("\nJuvenil B");	
-		}
-		
-		else if(idade >= 18 && idade <= 90) {
-			System.out.println("\nAdulto");
+		else if (idade >= 18 && idade <= 25) {
+			System.out.println("\nAdulto ");
 		}
 		
 		else {
