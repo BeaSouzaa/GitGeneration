@@ -33,7 +33,7 @@ public class Exercicio3 {
 		idade = leia.nextInt();
 			}
 		
-	System.out.println("A quantidade de pessoas com menos de 21 anos é de: " + menos +"." + "\nE a quantidade acima dos 50 anos é de: " + mais);
+	System.out.println("A quantidade de pessoas com menos de 21 anos é de: " + menos +"." + "\nE a quantidade acima dos 50 anos é de: " + mais + ".");
 	}
 }
 
