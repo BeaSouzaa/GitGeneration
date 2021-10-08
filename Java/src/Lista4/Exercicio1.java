@@ -26,7 +26,6 @@ public class Exercicio1 {
 			System.out.println("A maior pontuação é: " + maior);
 			
 			
-			
 			}
 	}
 
