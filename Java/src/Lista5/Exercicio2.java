@@ -12,31 +12,40 @@ public class Exercicio2 {
 		 String colete;
 		 String acao;
 		 
-		 
-		//atributo
 		public String getFabricante() {
 			return Fabricante;
+		}
+		public void setFabricante(String fabricante) {
+			Fabricante = fabricante;
 		}
 		public String getCor() {
 			return cor;
 		}
+		public void setCor(String cor) {
+			this.cor = cor;
+		}
 		public String getMascara() {
 			return mascara;
+		}
+		public void setMascara(String mascara) {
+			this.mascara = mascara;
 		}
 		public String getColete() {
 			return colete;
 		}
-		
-		//método
+		public void setColete(String colete) {
+			this.colete = colete;
+		}
+		public String getAcao() {
+			return acao;
+		}
 		public void setAcao(String acao) {
-			if(mascara == colete) {
-			this.acao = acao;}
-			else {
-				System.out.println("O avião não pode decolar!");
-			}
-				 
+			this.acao = acao;
+		}
+		 
+		 
 
 	}
-}
+
 
 

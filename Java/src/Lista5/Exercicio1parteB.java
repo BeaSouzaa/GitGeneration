@@ -15,26 +15,32 @@ public class Exercicio1parteB {
 		
 	
 		
+		System.out.println("Digite o seu nome: ");
 		
-		cliente.Nome = "Beatriz";
-		cliente.Idade = "25 anos";
-		cliente.Naturalidade = "Capivari";
-		cliente.Email = "beatrizgsouza.bgs@gmail.com";
+		cliente.setNome(leia.nextLine());
+		
+		System.out.println("Digite a sua idade: ");
+		cliente.setIdade(leia.nextLine());
+		
+		System.out.println("Qual é a sua naturalidade: ");
+		cliente.setNaturalidade(leia.nextLine());
+		
+		System.out.println("Digite o seu email: ");
+		cliente.setEmail (leia.nextLine());
+		
 		cliente.setSaldo(978221);
 		
 		
-		
-		
-		System.out.println("**************PREÇO PARA ALUGUEL DE CARRO*************");
+		System.out.println("*************VALOR DO SALDO**************");
 			
 		
-		System.out.println("Nome: " + cliente.Nome);
-		System.out.println("Idade: " + cliente.Idade);
-		System.out.println("Naturalidade: " + cliente.Naturalidade);
-		System.out.println("Email: " + cliente.Email);
+		System.out.println("Nome: " + cliente.getNome());
+		System.out.println("Idade: " + cliente.getIdade());
+		System.out.println("Naturalidade: " + cliente.getNaturalidade());
+		System.out.println("Email: " + cliente.getEmail());
 		
 		
-		System.out.println("O valor do seu saldo é R$: " + cliente.Saldo);
+		System.out.println("O valor do seu saldo é R$: " + cliente.getSaldo());
 		System.out.println("\n|*|*|*|*|Obrigada pela preferência|*|*|*|*|");
 		
 		leia.close();

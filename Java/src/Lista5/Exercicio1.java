@@ -15,30 +15,43 @@ public class Exercicio1 {
 	String Naturalidade;
 	String Email;
 	double Saldo;
-
 	
 	
-
 	public String getNome() {
 		return Nome;
 	}
-
+	public void setNome(String nome) {
+		Nome = nome;
+	}
 	public String getIdade() {
 		return Idade;
+	}
+	public void setIdade(String idade) {
+		Idade = idade;
 	}
 	public String getNaturalidade() {
 		return Naturalidade;
 	}
-	
+	public void setNaturalidade(String naturalidade) {
+		Naturalidade = naturalidade;
+	}
 	public String getEmail() {
 		return Email;
 	}
-	public void setSaldo(double saldo) {
-		Saldo += saldo;
+	public void setEmail(String email) {
+		Email = email;
 	}
+	public double getSaldo() {
+		return Saldo;
+	}
+	public void setSaldo(double saldo) {
+		Saldo = saldo;
+	}
+}
+
 
 	
-			
-	}
+	
 
+	
 
