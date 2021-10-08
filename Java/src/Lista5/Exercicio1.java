@@ -1,7 +1,5 @@
 package Lista5;
 
-import java.util.Scanner;
-
 
 public class Exercicio1 {
 	//*********************CLIENTES**********************
@@ -10,8 +8,8 @@ public class Exercicio1 {
 	//esta classe, em seguida crie um objeto cliente, defina as instancias deste
 	//objeto e apresente as informações deste objeto no console.
 
-	Scanner leia = new Scanner(System.in);
 	//ATRIBUTOS
+	
 	String Nome;
 	String Idade;
 	String Naturalidade;
