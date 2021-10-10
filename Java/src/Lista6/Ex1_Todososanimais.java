@@ -14,9 +14,7 @@ public class Ex1_Todososanimais {
 		Ex1_Cavalo cavalo = new Ex1_Cavalo();
 		Ex1_Preguiça preguica = new Ex1_Preguiça();
 		
-		
 			
-		
 		cachorro.setAnimal("Cachorro");
 		cachorro.setIdade("7");
 		cachorro.setIdade("AU-AU");
@@ -36,6 +34,8 @@ public class Ex1_Todososanimais {
 		preguica.setIdade("5");
 		preguica.setSom("Many, meu chapa");
 		preguica.setAcao("A preguiça sobe em árvores.");
+		
+		
 		
 		System.out.println("Qual animal? " + cachorro.getAnimal());
 		System.out.println("Qual é a idade do animal? " + cachorro.getIdade());
@@ -57,10 +57,10 @@ public class Ex1_Todososanimais {
 		
 		System.out.println();
 		
+		leia.close();
 		
-		
-
 	}
+	
 
 }
  
