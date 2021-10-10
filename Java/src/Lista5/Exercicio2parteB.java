@@ -30,7 +30,9 @@ public class Exercicio2parteB {
 		System.out.println("\nFabricante do avião: "+ aviao.getFabricante());
 		System.out.println("\nA cor do avião é: " + aviao.getCor());
 		System.out.println("\nAs máscaras foram testadas e aprovados: " + aviao.getMascara());
-		System.out.println("\nOs coletes foram testados e aprovados: " + aviao.getColete() );
+		System.out.println("\nOs coletes foram testados e aprovados: " + aviao.getColete());
+		
+		
 		System.out.println("\nO avião poderá decolar ou terá que ficar parado? " + aviao.getAcao());
 		
 		
