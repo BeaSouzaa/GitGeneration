@@ -24,7 +24,6 @@ public class Ex1_Animal {
 	}
 	public void setSom(String som) {
 		this.som = som;
-		System.out.println("Som que emite: " + som);
 	}
 	public String getAcao() {
 		return acao;

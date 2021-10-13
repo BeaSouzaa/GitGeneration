@@ -15,25 +15,25 @@ public class Ex1_Todososanimais {
 		Ex1_Preguiça preguica = new Ex1_Preguiça();
 		
 			
-		cachorro.setAnimal("Cachorro");
-		cachorro.setIdade("7");
-		cachorro.setIdade("AU-AU");
-		cachorro.setAcao("O cachorro corre");
+		cachorro.setAnimal(" Cachorro");
+		cachorro.setIdade(" 7 anos");
+		cachorro.setSom(" AU-AU");
+		cachorro.setAcao(" O cachorro corre");
 		
 		System.out.println();
 		
 		
-		cavalo.setAnimal("Cavalo");
-		cavalo.setIdade("8");
-		cavalo.setIdade("iiiiirrrriii");
-		cavalo.setAcao("O cavalo corre");
+		cavalo.setAnimal(" Cavalo");
+		cavalo.setIdade(" 8 anos");
+		cavalo.setSom(" iiiiirrrriii");
+		cavalo.setAcao(" O cavalo corre");
 		
 		System.out.println();
 		
-		preguica.setAnimal("Preguiça");
-		preguica.setIdade("5");
-		preguica.setSom("Many, meu chapa");
-		preguica.setAcao("A preguiça sobe em árvores.");
+		preguica.setAnimal(" Preguiça");
+		preguica.setIdade(" 5 anos");
+		preguica.setSom(" Many, meu chapa");
+		preguica.setAcao(" A preguiça sobe em árvores.");
 		
 		
 		
