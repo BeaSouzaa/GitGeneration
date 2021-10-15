@@ -66,10 +66,10 @@ public class Ex3_TestaCollection {
 						
 						case 2:
 							System.out.println("Escreva o nome do produto que quer remover: ");
-							var tira = leia.next();
+							String remover = leia.next();
 							
 							
-							estoque.remove(tira);
+							estoque.remove(remover);
 							
 								//terminar de escrever essa parte
 							
