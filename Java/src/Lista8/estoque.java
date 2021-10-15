@@ -33,7 +33,7 @@ public class estoque {
 	}
 	
 	public String toString() {
-		return "Nome: " + this.produto + "\nQuantidade: " + this.quantidade;
+		return "\n\nNome: " + this.produto + "\nQuantidade: " + this.quantidade;
 		
 		
 	}
