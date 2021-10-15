@@ -66,18 +66,23 @@ public class Ex3_TestaCollection {
 						
 						case 2:
 							System.out.println("Escreva o nome do produto que quer remover: ");
-							String remover = leia.next();
+							var tira = leia.next();
 							
 							
+							estoque.remove(tira);
 							
-								
-							estoque.remove(remover);
+								//terminar de escrever essa parte
+							
 							
 							break;
 							
 						case 0:
+						
+							System.out.println("...O programa está sendo fechado...");
+							
 							Thread.sleep(1000);
-							System.out.println("O programa está sendo fechado!");
+							
+								System.out.println("\n\n         MUITO OBRIGADA!");	
 							break;
 							
 							
